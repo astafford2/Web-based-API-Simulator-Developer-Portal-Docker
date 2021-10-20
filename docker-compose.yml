@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dev-portal:
+    build:
+      context: ./
+      dockerfile: ./bsu.developer-portal/Dockerfile
+    ports:
+      - "80:80"
+    container-name: dev-portal
+    volumes:
+      - 
