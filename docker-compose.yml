@@ -6,4 +6,5 @@ services:
       dockerfile: ./bsu.developer-portal/Dockerfile
     ports:
       - "8080:8080"
-    container-name: dev-portal
+    container_name: dev-portal
+    command: npm run serve
