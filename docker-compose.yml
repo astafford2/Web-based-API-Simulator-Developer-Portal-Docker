@@ -14,4 +14,4 @@ services:
       dockerfile: ./bsu.developer-portal/dotnet/Dockerfile
     ports:
       - "5001:5001"
-    container-name: dev-portal-dotnet
+    container_name: dev-portal-dotnet
