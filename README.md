@@ -20,7 +20,7 @@ This repository is a docker compose for replicating the local development enviro
   - You can do it via command line (or choose your own way of cloning a repository, NOT DOWNLOADING).  
 
     -  (Windows) **Shift+Right-click** to an empty place on that folder to open a command line.
-    -   Run these commands (it assumes you have **git** installed and **git** command accessible in PATH environment variable):
+    -   Run the following command (it assumes you have **git** installed and **git** command accessible in PATH environment variable):
         - `git clone https://bitbucket.org/accutechdev/bsu.developer-portal/src/master/ bsu.developer-portal`
 
 ### Run
