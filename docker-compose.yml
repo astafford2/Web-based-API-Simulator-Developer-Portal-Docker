@@ -1,12 +1,12 @@
 version: '3'
 services:
-  # dev-portal-vue:
-  #   build:
-  #     context: ./
-  #     dockerfile: ./bsu.developer-portal/vue/Dockerfile
-  #   ports:
-  #     - "8080:8080"
-  #   container_name: dev-portal-vue
+  dev-portal-vue:
+    build:
+      context: ./
+      dockerfile: ./bsu.developer-portal/vue/Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: dev-portal-vue
     # command: npm run serve
   dev-portal-dotnet:
     build:
