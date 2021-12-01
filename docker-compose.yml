@@ -1,18 +1,18 @@
 version: '3'
 services:
-  dev-portal-vue:
+  dev-portal-vue-external:
     build:
       context: ./
-      dockerfile: ./bsu.developer-portal/vue/Dockerfile
+      dockerfile: ./bsu.developer-portal/vue/DockerfileExternal
     ports:
       - "8080:8080"
-    container_name: dev-portal-vue
+    container_name: dev-portal-vue-external
     # command: npm run serve
-  dev-portal-dotnet:
+  dev-portal-dotnet-external:
     build:
       context: ./
-      dockerfile: ./bsu.developer-portal/dotnet/Dockerfile
+      dockerfile: ./bsu.developer-portal/dotnet/DockerfileExternal
     ports:
       - "5001:5001"
       - "5000:5000"
-    container_name: dev-portal-dotnet
+    container_name: dev-portal-dotnet-external
